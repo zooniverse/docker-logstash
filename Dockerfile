@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM zooniverse/java
 
 ADD logstash.list /etc/apt/sources.list.d/logstash.list
 ADD start_logstash.sh /
